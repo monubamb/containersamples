@@ -1,3 +1,3 @@
 FROM microsoft/windowsservercore
-RUN ["c:\\bin\\Debug\\ConsoleApp3.exe"]
-ADD ./ConsoleApp3 . 
+ADD /ConsoleApp3/bin/Debug /
+ENTRYPOINT ConsoleApp3.exe
